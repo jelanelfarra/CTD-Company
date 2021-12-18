@@ -1,0 +1,88 @@
+body{font-family: Arial,Helvetica,sans-serif;}
+nav{background-color: #000 !important;border-bottom: 1px solid #fff;padding: 25px 100px;
+font-family: 'Bebas Neue', cursive;}
+.navbar-dark .navbar-nav .nav-link{font-size: 20px;letter-spacing: 0.1em;color: #2e86de;margin-left: 10px;}
+.navbar-dark .navbar-brand{color:rgb(33, 87, 121);font-size: 30px;letter-spacing: 0.2em;}
+nav .user i{margin-left: 10px;color: #2e86de;font-size: 27px;}
+nav .user{padding-top: 5px;}
+nav .bag i{color: #2e86de;font-size: 25px;margin-left: 10px;}
+h1{font-family: 'Bebas Neue', cursive;font-size: 80px;}
+nav .login-btn{display: flex;}
+.navbar-toggler span i{color: #000;}
+.navbar-toggler span{background-color: #fff;padding: 13px 15px;border: none;}
+.offcanvas-collapse .close{position: relative;right: 15%;top: 30px;color: #000;}
+/* ***********Start Header************************* */
+header{background-color: black;position: relative;height: 625px;}
+header img{margin-top: 50px;width: 85%;}
+header h1{color: #fff;text-transform: uppercase;position: absolute;top: 30%;font-family: 'Bebas Neue', cursive;font-size: 100px; }
+header button{position: absolute;top: 70%;}
+button{background-color: rgb(33, 87, 121) !important;border: none !important;border-radius: 0% !important;}
+button a{ color: #fff !important;}
+/* ***************Start Section 2***************************** */
+.about{padding: 100px 0; color: #444;}
+.about img{width: 80% !important;}
+.about h5{margin: 50px 0;}
+.about-us,.product{padding: 100px 80px;} .about-us h1,.product h1{color: rgb(33, 87, 121); margin: 50px 0;}
+.about-us .row{margin-bottom: 70px;}
+.about-us p{color: #444;font-size: 15px;padding: 20px 25px;}
+/* ***************Start Section 3***************************** */
+.prod{background-color: #1e2f39;padding: 70px 0;}
+.prod h1{color: #fff;}
+.line{border-bottom: 7px solid rgb(33, 87, 121); width: 10%;position: relative;left: 45%;margin-top: 30px;font-family: 'Bebas Neue', cursive;}
+.prod .video{margin: 50px 0;}
+.prod span ,.prod p{color: #fff;font-size: 14px;}
+.prod .colom{display: flex;} .prod .row{margin-bottom: 20px;}
+.prod .colom img{width: 15%;height: 80%;margin-right: 10px;}
+.product img{width: 80%; margin-top: 80px;position: relative;cursor: pointer;}
+.product h6{position: absolute;background-color: #e6e7e9c9;color: #444;
+    top: 66%;left: 68px;transition: all 1s;padding: 4px 20px;opacity: 0;}
+	.product .image:hover h6{opacity: 1;}
+	.product h5{background-color: rgb(33, 87, 121);color: #fff;padding: 4px 10px;position: absolute;font-size: 15px;top: 20%;z-index: 1;}
+/* ******************Section 4*************************** */
+.contact{padding: 70px 100px;}
+.contact h1{color: rgb(33, 87, 121);}
+.contact .row{margin-top: 50px;}
+.contact h5{margin-bottom: 50px;}
+.contact P, .contact h5{color: #444;}
+.contact img{margin: 50px 0;}
+.content button{margin-top: 50px;}
+.contact .form-control{border: none;border-radius: 0%;border: 1px solid #000;margin-bottom: 5px;}
+
+footer{background-color: #000;color: #fff;font-size: 15px;padding: 15px 0;}
+
+#scroll-top{
+	width: 50px;
+	height: 50px;
+	color: aliceblue;
+	text-align: center;
+    background-color: rgb(33, 87, 121);
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 99999;
+	display: none;
+	cursor: pointer;
+}
+#scroll-top i{font-size: 29px;color: #fff;margin-top: 8px;}
+
+/* ******************Start Forum************************* */
+.forum{padding: 100px 0px;visibility: visible;}
+.forum h1{color: rgb(33, 87, 121);font-size: 80px;font-family: 'Bebas Neue', cursive;margin-top: 30px;}
+.forum .intro{border: 1px solid #444;padding: 20px 40px; margin: 40px 0;color: #444;}
+.forum span i{margin-left: 30px;cursor: pointer;}
+.forum button{position: relative;right: -43%;background-color: rgb(33, 87, 121);border-radius: 0%;border: none;}
+.forum .post i{color: rgb(83, 82, 82); margin: 5px;} .admin{font-size: 20px;}
+.forum .post{border: 1px solid #444;text-align: left;font-size: 14px;color: rgb(83, 82, 82);
+padding: 15px 20px;} .post .date{margin-left: 36px;} .post h6{margin-top: 20px;}.post .love{margin-left: 80%;}
+.forum .dropdown .dropdown-menu{font-size: 15px; padding: 15px 20px;width: 27%;}
+.forum .dropdown i{position: relative;top: 25px;}
+/* ******************Start login************************* */
+.login{padding: 100px 0;position: relative;}
+.login h1{font-size: 55px;font-family: 'Bebas Neue', cursive;margin-top: 30px;letter-spacing: .1em;}
+.login button{margin: 15px 0; border: none;border-radius: 0%; padding: 10px 60px;font-weight: bold;}
+.login button i{position: relative; left: -24%;font-size: 20px;font-weight: normal;}
+.login .btn1 button{background-color: #3b5998;}
+.login .btn2 button{background-color: #4285f4;padding:10px 70px}
+.login .btn3 button{background-color: transparent !important; color: #1e2f39 !important;border: #1e2f39 solid 1px !important;padding:10px 85px}
+.login .left-line{border-top: 1px solid;width: 9%;position: absolute;left: 39%;top: 65%;}
+.login .right-line{border-top: 1px solid;width: 9%;position: absolute;left: 52%;top: 65%;}
